@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     
-    <title>Running Ghost</title>
+    <title>Blog Configuration</title>
     <meta name="description" content="" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -21,9 +21,9 @@
     
     <meta name="generator" content="Ghost 0.4" />
 <link rel="alternate" type="application/rss+xml" title="Zach&#39;s Thoughts" href="../rss/index.html">
-<link rel="canonical" href="http://my-ghost-blog.com/blah/" />
+<link rel="canonical" href="http://my-ghost-blog.com/blog-configuration/" />
 </head>
-<body class="post-template tag-blergh">
+<body class="post-template tag-config">
 
     
     
@@ -32,7 +32,7 @@
 
 <main class="content" role="main">
 
-    <article class="post tag-blergh">
+    <article class="post tag-config">
 
         
         <header class="post-header">
@@ -46,14 +46,42 @@
         
         
 
-            <span class="post-meta"><time datetime="2014-05-11">11 May 2014</time> on <a href="../tag/blergh/index.html">Blergh</a></span>
+            <span class="post-meta"><time datetime="2014-05-11">11 May 2014</time> on <a href="../tag/config/index.html">Config</a></span>
 
-            <h1 class="post-title">Running Ghost</h1>
+            <h1 class="post-title">Blog Configuration</h1>
 
             <section class="post-content">
-                <h1> This is my first post </h1>  
+                <h3 id="forfuturereference">For Future Reference</h3>
 
-<p><p> I am not sure what I am doing, nor what tone I intend to exhibit, but I do <b> quite </b> enjoy the markdown.</p>
+<p>I am including the steps I used to get my <code>Ghost</code> blog up and runing. The most valuable resoure I found was <a href="http://temacotta.com/" > Temacotta's</a> quick install <a href="http://www.metacotta.com/ghost-static-site-generation-with-buster/"> guide</a>. <small> They also have a quite  handy <code>Ghost</code> <a href="http://temacotta.com/ghost-cheat-sheet.html"> cheatsheet. </a> </small> </p>
+
+<p><ol> <br />
+<li>Installation of <code>Ghost</code>  </p>
+
+<ul>  
+Download <a href="https://ghost.org/zip/ghost-0.4.1.zip"> latest version</a></ul><ul>Navigate to your downloaded source folder     </ul><ul> Install dependencies and start blogging!  
+</ul><ul><code>npm install --production</code> </ul> <ul> <code>npm start</code></ul></li>  
+<br><br>  
+<li> Your first post  
+<br><br>  
+<ul> Once Ghost is running, type in your local url  
+</ul>  
+
+<ul> Blog is defaulted to:  
+<ul> <a href='../index.html'>http://127.0.0.1:2368</a>  
+</ul> </ul>  
+<ul> Admin area for creating posts is defaulted to:  
+<ul> <a href='../ghost'>http://127.0.0.1:2368/ghost</a> </ul> </ul>  
+<ul> Write and publish! </ul></li><br><br>
+
+<li> Deploying via static Github Pages  
+<br><br>  
+<ul> Once you are ready to deploy check out  
+</ul>  
+
+<p><ul> <a href='http://www.metacotta.com/ghost-static-site-generation-with-buster/'>http://www.metacotta.com/ghost-static-site-generation-with-buster/</a> <br />
+</ul> </li> <br />
+<li> Celebrate!</p>
             </section>
 
             <footer class="post-footer">
@@ -69,15 +97,15 @@
 
                 <section class="share">
                     <h4>Share this post</h4>
-                    <a class="icon-twitter" href="https://twitter.com/share?text=Running%20Ghost&amp;url=http://my-ghost-blog.com/blah/"
+                    <a class="icon-twitter" href="https://twitter.com/share?text=Blog%20Configuration&amp;url=http://my-ghost-blog.com/blog-configuration/"
                         onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                         <span class="hidden">Twitter</span>
                     </a>
-                    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://my-ghost-blog.com/blah/"
+                    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://my-ghost-blog.com/blog-configuration/"
                         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                         <span class="hidden">Facebook</span>
                     </a>
-                    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://my-ghost-blog.com/blah/"
+                    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://my-ghost-blog.com/blog-configuration/"
                        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                         <span class="hidden">Google+</span>
                     </a>
